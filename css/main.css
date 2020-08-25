@@ -1,0 +1,173 @@
+body{
+    background: #ddd;
+    padding: 0;
+    margin: 0;
+}
+p{
+    padding: 0;
+    margin: 0;
+}
+.main{
+    max-width: 640px;
+    background: white;
+    width: 100%;
+    margin: 0 auto;
+}
+.img{
+    width: 100%;
+}
+.img>img{
+    width: 100%;
+}
+.wechat{
+    padding: 50px 0;
+}
+.wechat_img{
+    text-align: center;
+}
+.wechat_img>img{
+    vertical-align: center;
+    width: 100%;
+}
+.sao{
+    font-size: 16px;
+    line-height: 200%;
+    color: rgb(255, 0, 0);
+    text-align:center;
+    font-weight: bold;
+}
+.wx{
+    height: 45px;
+    line-height: 45px;
+    left: 50%;
+    text-align: center;
+    width: 200px;
+    background: #ff0000;
+    color: #fff;
+    font-size: 35px;
+    border-radius: 10px;
+    margin: 0 auto;
+}
+.center{
+    text-align: center;
+}
+.copy{
+    color: #ff0;
+    display: block;
+    width: 200px;
+    height: 45px;
+    line-height: 45px;
+    background: #0C3;
+    border-radius: 8px;
+    text-decoration: none;
+    text-align: center;
+    font-size: 26px;
+    cursor: pointer;
+    /* position: absolute; */
+    margin: 20px auto;
+}
+.right{
+    position: fixed;
+    width: 200px;
+    right: 0px;
+    top: 100px;
+    border: #ccc 1px solid;
+    padding: 10px;
+    background: #fff;
+}
+.right>img{
+    width: 100%;
+}
+.footer{
+    height: 60px;
+    line-height: 60px;
+    background: #FF9A22;
+    text-align: center;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.b{
+    font-weight: bold;
+    color: tomato;
+}
+.title{
+    color: #FF9A22;
+}
+#makesure{
+    display: block;
+}
+.wee{
+    color: red;
+    font-weight: bold;
+    font-size: 20px;
+}
+.footer_copy{
+    display: inline-block;
+    background: white;
+    height: 40px;
+    text-align: center;
+    line-height: 40px;
+    padding: 0 10px;
+    margin: 0 10px;
+    top: 10px;
+    color: #FF9A22;
+    border-radius: 10px;
+    cursor: pointer;
+    width: auto !important;
+}
+.layui-layer-setwin{
+    width: 30px;
+    height: 30px;
+}
+.layui-layer-close1{
+    background: url("./../img/close_jia.png") 100% 100% !important ;
+    height: 16px;
+    width: 16px;
+}
+.wrap{
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    font-family: "微软雅黑";
+    background: rgba(0, 0, 0, 0.3);
+    z-index: 1000;
+    display: block;
+}
+.dialog1{
+    width: 300px;
+    height: 138px;
+    margin: 300px auto;
+    position: relative;
+    text-align: center;
+    font-size: 1.2em;
+    background: white;
+}
+.img_dia{
+    width: 300px;
+    height: 160px;
+    position: relative;
+    top: -160px;
+}
+.close{
+    position: relative;
+    top: -160px;
+    left: 130px;
+}
+.dia_wrap{
+    position: relative;
+    top:-180px;
+}
+.fl{
+    float: left;
+    width: 50%;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}

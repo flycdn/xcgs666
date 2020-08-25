@@ -1,0 +1,372 @@
+.layui-layer-imgbar {
+	white-space: nowrap; -ms-text-overflow: ellipsis;
+}
+.layui-layer-imgtit a {
+	white-space: nowrap; -ms-text-overflow: ellipsis;
+}
+.layui-layer-tab .layui-layer-title span {
+	white-space: nowrap; -ms-text-overflow: ellipsis;
+}
+.layui-layer-title {
+	white-space: nowrap; -ms-text-overflow: ellipsis;
+}
+html #layuicss-skinlayercss {
+	width: 1989px; display: none; position: absolute;
+}
+.layui-layer {
+	position: fixed; pointer-events: auto; _position: absolute;
+}
+.layui-layer-shade {
+	position: fixed; pointer-events: auto; _position: absolute;
+}
+.layui-layer-shade {
+	left: 0px; top: 0px; width: 100%; height: 100%;
+}
+.layui-layer {
+	margin: 0px; padding: 0px; left: 0px; top: 150px; box-shadow: 1px 1px 50px rgba(0,0,0,0.3); background-color: rgb(255, 255, 255); -webkit-overflow-scrolling: touch; -webkit-background-clip: content;
+}
+.layui-layer-close {
+	position: absolute;
+}
+.layui-layer-content {
+	position: relative;
+}
+.layui-layer-border {
+	border: 1px solid rgba(0, 0, 0, 0.1); border-image: none; box-shadow: 1px 1px 5px rgba(0,0,0,0.2);
+}
+.layui-layer-load {
+	background: url("loading-1.gif") no-repeat center rgb(238, 238, 238);
+}
+.layui-layer-ico {
+	background: url("icon.png") no-repeat;
+}
+.layui-layer-btn a {
+	vertical-align: top; display: inline-block;
+}
+.layui-layer-dialog .layui-layer-ico {
+	vertical-align: top; display: inline-block;
+}
+.layui-layer-setwin a {
+	vertical-align: top; display: inline-block;
+}
+.layui-layer-move {
+	left: 0px; top: 0px; width: 100%; height: 100%; display: none; position: fixed; z-index: 2147483647; cursor: move; opacity: 0; background-color: rgb(255, 255, 255);
+}
+.layui-layer-resize {
+	width: 15px; height: 15px; right: 0px; bottom: 0px; position: absolute; cursor: se-resize;
+}
+.layui-layer {
+	border-radius: 2px; animation-duration: 0.3s; animation-fill-mode: both; -webkit-animation-fill-mode: both; -webkit-animation-duration: .3s;
+}
+.layer-anim {
+	animation-name: layer-bounceIn; -webkit-animation-name: layer-bounceIn;
+}
+.layer-anim-01 {
+	animation-name: layer-zoomInDown; -webkit-animation-name: layer-zoomInDown;
+}
+.layer-anim-02 {
+	animation-name: layer-fadeInUpBig; -webkit-animation-name: layer-fadeInUpBig;
+}
+.layer-anim-03 {
+	animation-name: layer-zoomInLeft; -webkit-animation-name: layer-zoomInLeft;
+}
+.layer-anim-04 {
+	animation-name: layer-rollIn; -webkit-animation-name: layer-rollIn;
+}
+.layer-anim-05 {
+	animation-name: layer-fadeIn; -webkit-animation-name: layer-fadeIn;
+}
+.layer-anim-06 {
+	animation-name: layer-shake; -webkit-animation-name: layer-shake;
+}
+.layui-layer-title {
+	padding: 0px 80px 0px 20px; border-radius: 2px 2px 0px 0px; height: 42px; color: rgb(51, 51, 51); line-height: 42px; overflow: hidden; font-size: 14px; border-bottom-color: rgb(238, 238, 238); border-bottom-width: 1px; border-bottom-style: solid; background-color: rgb(248, 248, 248);
+}
+.layui-layer-setwin {
+	top: 15px; right: 15px; font-size: 0px; position: absolute;
+}
+.layui-layer-setwin a {
+	width: 16px; height: 16px; font-size: 12px; margin-left: 10px; position: relative; _overflow: hidden;
+}
+.layui-layer-setwin .layui-layer-min cite {
+	left: 0px; top: 50%; width: 14px; height: 2px; margin-top: -1px; position: absolute; cursor: pointer; background-color: rgb(46, 45, 60); _overflow: hidden;
+}
+.layui-layer-setwin .layui-layer-min:hover cite {
+	background-color: rgb(45, 147, 202);
+}
+.layui-layer-setwin .layui-layer-max {
+	background-position: -32px -40px;
+}
+.layui-layer-setwin .layui-layer-max:hover {
+	background-position: -16px -40px;
+}
+.layui-layer-setwin .layui-layer-maxmin {
+	background-position: -65px -40px;
+}
+.layui-layer-setwin .layui-layer-maxmin:hover {
+	background-position: -49px -40px;
+}
+.layui-layer-setwin .layui-layer-close1 {
+	background-position: 1px -40px; cursor: pointer;
+}
+.layui-layer-setwin .layui-layer-close1:hover {
+	opacity: 0.7;
+}
+.layui-layer-setwin .layui-layer-close2 {
+	background-position: -149px -31px; top: -28px; width: 30px; height: 30px; right: -28px; margin-left: 0px; position: absolute; _display: none;
+}
+.layui-layer-setwin .layui-layer-close2:hover {
+	background-position: -180px -31px;
+}
+.layui-layer-btn {
+	padding: 0px 10px 12px; text-align: right; pointer-events: auto; user-select: none; -webkit-user-select: none;
+}
+.layui-layer-btn a {
+	margin: 6px 6px 0px; padding: 0px 15px; border-radius: 2px; border: 1px solid rgb(222, 222, 222); border-image: none; height: 28px; color: rgb(51, 51, 51); line-height: 28px; font-weight: 400; text-decoration: none; cursor: pointer; background-color: rgb(241, 241, 241);
+}
+.layui-layer-btn a:hover {
+	text-decoration: none; opacity: 0.9;
+}
+.layui-layer-btn a:active {
+	opacity: 0.8;
+}
+.layui-layer-btn .layui-layer-btn0 {
+	border-color: rgb(72, 152, 213); color: rgb(255, 255, 255); background-color: rgb(46, 141, 237);
+}
+.layui-layer-btn-l {
+	text-align: left;
+}
+.layui-layer-btn-c {
+	text-align: center;
+}
+.layui-layer-dialog {
+	min-width: 260px;
+}
+.layui-layer-dialog .layui-layer-content {
+	padding: 20px; line-height: 24px; overflow: hidden; font-size: 14px; position: relative; -ms-word-break: break-all; -ms-overflow-x: hidden; -ms-overflow-y: auto;
+}
+.layui-layer-dialog .layui-layer-content .layui-layer-ico {
+	left: 15px; top: 16px; width: 30px; height: 30px; position: absolute; _left: -40px;
+}
+.layui-layer-ico1 {
+	background-position: -30px 0px;
+}
+.layui-layer-ico2 {
+	background-position: -60px 0px;
+}
+.layui-layer-ico3 {
+	background-position: -90px 0px;
+}
+.layui-layer-ico4 {
+	background-position: -120px 0px;
+}
+.layui-layer-ico5 {
+	background-position: -150px 0px;
+}
+.layui-layer-ico6 {
+	background-position: -180px 0px;
+}
+.layui-layer-rim {
+	border-radius: 5px; border: 6px solid rgba(0, 0, 0, 0.3); border-image: none; box-shadow: none;
+}
+.layui-layer-msg {
+	border: 1px solid rgb(211, 212, 211); border-image: none; min-width: 180px; box-shadow: none;
+}
+.layui-layer-hui {
+	border: currentColor; border-image: none; color: rgb(255, 255, 255); min-width: 100px; background-color: rgba(0, 0, 0, 0.6);
+}
+.layui-layer-hui .layui-layer-content {
+	padding: 12px 25px; text-align: center;
+}
+.layui-layer-dialog .layui-layer-padding {
+	padding: 20px 20px 20px 55px; text-align: left;
+}
+.layui-layer-page .layui-layer-content {
+	overflow: auto; position: relative;
+}
+.layui-layer-iframe .layui-layer-btn {
+	padding-top: 10px;
+}
+.layui-layer-page .layui-layer-btn {
+	padding-top: 10px;
+}
+.layui-layer-nobg {
+	background: 0px 0px;
+}
+.layui-layer-iframe iframe {
+	width: 100%; display: block;
+}
+.layui-layer-loading {
+	background: 0px 0px; border-radius: 100%; border: currentColor; border-image: none; box-shadow: none;
+}
+.layui-layer-loading .layui-layer-content {
+	background: url("loading-0.gif") no-repeat; width: 60px; height: 24px;
+}
+.layui-layer-loading .layui-layer-loading1 {
+	background: url("loading-1.gif") no-repeat; width: 37px; height: 37px;
+}
+.layui-layer-ico16 {
+	background: url("loading-2.gif") no-repeat; width: 32px; height: 32px;
+}
+.layui-layer-loading .layui-layer-loading2 {
+	background: url("loading-2.gif") no-repeat; width: 32px; height: 32px;
+}
+.layui-layer-tips {
+	background: 0px 0px; border: currentColor; border-image: none; box-shadow: none;
+}
+.layui-layer-tips .layui-layer-content {
+	padding: 5px 10px; border-radius: 2px; color: rgb(255, 255, 255); line-height: 22px; font-size: 12px; position: relative; min-width: 12px; box-shadow: 1px 1px 3px rgba(0,0,0,0.2); background-color: rgb(0, 0, 0); _float: left;
+}
+.layui-layer-tips .layui-layer-close {
+	top: -1px; right: -2px;
+}
+.layui-layer-tips i.layui-layer-TipsG {
+	border: 8px dashed transparent; width: 0px; height: 0px; position: absolute;
+}
+.layui-layer-tips i.layui-layer-TipsB {
+	left: 5px; border-right-color: rgb(0, 0, 0); border-right-style: solid;
+}
+.layui-layer-tips i.layui-layer-TipsT {
+	left: 5px; border-right-color: rgb(0, 0, 0); border-right-style: solid;
+}
+.layui-layer-tips i.layui-layer-TipsT {
+	bottom: -8px;
+}
+.layui-layer-tips i.layui-layer-TipsB {
+	top: -8px;
+}
+.layui-layer-tips i.layui-layer-TipsL {
+	top: 1px; border-bottom-color: rgb(0, 0, 0); border-bottom-style: solid;
+}
+.layui-layer-tips i.layui-layer-TipsR {
+	top: 1px; border-bottom-color: rgb(0, 0, 0); border-bottom-style: solid;
+}
+.layui-layer-tips i.layui-layer-TipsR {
+	left: -8px;
+}
+.layui-layer-tips i.layui-layer-TipsL {
+	right: -8px;
+}
+[type=dialog].layui-layer-lan {
+	min-width: 280px;
+}
+.layui-layer-lan .layui-layer-title {
+	background: rgb(68, 118, 167); border: currentColor; border-image: none; color: rgb(255, 255, 255);
+}
+.layui-layer-lan .layui-layer-btn {
+	padding: 5px 10px 10px; text-align: right; border-top-color: rgb(233, 231, 231); border-top-width: 1px; border-top-style: solid;
+}
+.layui-layer-lan .layui-layer-btn a {
+	background: rgb(187, 181, 181); border: currentColor; border-image: none;
+}
+.layui-layer-lan .layui-layer-btn .layui-layer-btn1 {
+	background: rgb(201, 197, 197);
+}
+.layui-layer-molv .layui-layer-title {
+	background: rgb(0, 159, 149); border: currentColor; border-image: none; color: rgb(255, 255, 255);
+}
+.layui-layer-molv .layui-layer-btn a {
+	background: rgb(0, 159, 149);
+}
+.layui-layer-molv .layui-layer-btn .layui-layer-btn1 {
+	background: rgb(146, 184, 177);
+}
+.layui-layer-iconext {
+	background: url("icon-ext.png") no-repeat;
+}
+.layui-layer-prompt .layui-layer-input {
+	margin: 0px auto; padding: 0px 5px; border: 1px solid rgb(204, 204, 204); border-image: none; width: 220px; height: 30px; color: rgb(51, 51, 51); line-height: 30px; display: block; box-shadow: inset 1px 1px 5px rgba(0,0,0,0.1);
+}
+.layui-layer-prompt textarea.layui-layer-input {
+	width: 300px; height: 100px; line-height: 20px;
+}
+.layui-layer-prompt .layui-layer-content {
+	padding: 20px;
+}
+.layui-layer-prompt .layui-layer-btn {
+	padding-top: 0px;
+}
+.layui-layer-tab {
+	box-shadow: 1px 1px 50px rgba(0,0,0,0.4);
+}
+.layui-layer-tab .layui-layer-title {
+	overflow: visible; padding-left: 0px; border-bottom-color: rgb(204, 204, 204); border-bottom-width: 1px; border-bottom-style: solid; background-color: rgb(238, 238, 238);
+}
+.layui-layer-tab .layui-layer-title span {
+	padding: 0px 20px; text-align: center; overflow: hidden; float: left; position: relative; cursor: default; min-width: 80px; max-width: 260px;
+}
+.layui-layer-tab .layui-layer-title span.layui-layer-tabnow {
+	height: 43px; border-right-color: rgb(204, 204, 204); border-left-color: rgb(204, 204, 204); border-right-width: 1px; border-left-width: 1px; border-right-style: solid; border-left-style: solid; z-index: 10; background-color: rgb(255, 255, 255);
+}
+.layui-layer-tab .layui-layer-title span:first-child {
+	border-left-color: currentColor; border-left-width: medium; border-left-style: none;
+}
+.layui-layer-tabmain {
+	line-height: 24px; clear: both;
+}
+.layui-layer-tabmain .layui-layer-tabli {
+	display: none;
+}
+.layui-layer-tabmain .layui-layer-tabli.xubox_tab_layer {
+	display: block;
+}
+.xubox_tabclose {
+	top: 5px; right: 10px; position: absolute; cursor: pointer;
+}
+.layui-layer-photos {
+	animation-duration: 0.8s; -webkit-animation-duration: .8s;
+}
+.layui-layer-photos .layui-layer-content {
+	text-align: center; overflow: hidden;
+}
+.layui-layer-photos .layui-layer-phimg img {
+	width: 100%; vertical-align: top; display: inline-block; position: relative;
+}
+.layui-layer-imgbar {
+	display: none;
+}
+.layui-layer-imguide {
+	display: none;
+}
+.layui-layer-imgnext {
+	outline: 0px; top: 50%; width: 27px; height: 44px; margin-top: -22px; position: absolute; _width: 44px;
+}
+.layui-layer-imgprev {
+	outline: 0px; top: 50%; width: 27px; height: 44px; margin-top: -22px; position: absolute; _width: 44px;
+}
+.layui-layer-imgprev {
+	background-position: -5px -5px; left: 10px; _background-position: -70px -5px;
+}
+.layui-layer-imgprev:hover {
+	background-position: -33px -5px; _background-position: -120px -5px;
+}
+.layui-layer-imgnext {
+	background-position: -5px -50px; right: 10px; _background-position: -70px -50px; _right: 8px;
+}
+.layui-layer-imgnext:hover {
+	background-position: -33px -50px; _background-position: -120px -50px;
+}
+.layui-layer-imgbar {
+	left: 0px; width: 100%; height: 32px; bottom: 0px; color: rgb(255, 255, 255); line-height: 32px; overflow: hidden; font-size: 0px; position: absolute; background-color: rgba(0, 0, 0, 0.8);
+}
+.layui-layer-imgtit * {
+	font-size: 12px; vertical-align: top; display: inline-block;
+}
+.layui-layer-imgtit a {
+	color: rgb(255, 255, 255); overflow: hidden; max-width: 65%;
+}
+.layui-layer-imgtit a:hover {
+	color: rgb(255, 255, 255); text-decoration: underline;
+}
+.layui-layer-imgtit em {
+	padding-left: 10px; font-style: normal;
+}
+.layer-anim-close {
+	animation-name: layer-bounceOut; animation-duration: 0.2s; -webkit-animation-duration: .2s; -webkit-animation-name: layer-bounceOut;
+}
+@media screen and (max-width:1100px)
+{
+.layui-layer-iframe {
+	-ms-overflow-y: auto; -webkit-overflow-scrolling: touch;
+}
+}
